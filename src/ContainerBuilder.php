@@ -8,6 +8,6 @@ class ContainerBuilder implements ContainerBuilderInterface
 {
     public function add(string $key, array $options): static
     {
-
+        return $this;
     }
 }
