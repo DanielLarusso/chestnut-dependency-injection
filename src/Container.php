@@ -74,7 +74,7 @@ class Container extends AbstractSingleton implements ContainerInterface
 
     private function extractDependencies(?array $parameters, string $id): array
     {
-        return array_map(static function (ReflectionParameter $parameter) use ($id) {
+        return array_map(function (ReflectionParameter $parameter) use ($id) {
             $name = $parameter->getName();
             $type = $parameter->getType();
 
