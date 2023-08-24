@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Chestnut\DependencyInjection;
 
-use Chestnut\DependencyInjection\Exceptions\ContainerException;
+use Chestnut\DependencyInjection\Exception\ContainerException;
 use Chestnut\Utils\AbstractSingleton;
 use Psr\Container\ContainerInterface;
 

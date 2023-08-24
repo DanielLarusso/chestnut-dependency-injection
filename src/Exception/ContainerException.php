@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chestnut\DependencyInjection\Exceptions;
+namespace Chestnut\DependencyInjection\Exception;
 
 use Exception;
 
