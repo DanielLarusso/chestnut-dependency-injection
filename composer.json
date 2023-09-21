@@ -21,7 +21,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:DanielLarusso/chestnut-utils"
+            "url": "https://github.com/DanielLarusso/chestnut-utils"
         }
     ],
     "require": {
